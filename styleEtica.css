@@ -1,0 +1,151 @@
+:root {
+    --bg-color-01: #191919;
+    --bg-color-02: #1e1e1e;
+    --bg-color-03: #ffffff;
+
+    --bg-color-alpha-01: #ffffff1a;
+
+    --color-01: #000000;
+    --color-02: #191919;
+    --color-03: #2d2d2d;
+    --color-04: #7d7d7d;
+    --color-05: #969696;
+    --color-06: #e1e1e1;
+    --color-07: #ffffff;
+}
+
+* {
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color-03);
+    color: var(--color-07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 87px;
+    margin: 0;
+    font-family: system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: var(--bg-color-01);
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.return h3 {
+    margin-left: 30px;
+}
+
+.return h3:hover {
+    color: var(--color-07);
+}
+
+ .return:link {
+    color: var(--color-07);
+ }
+
+.return:visited {
+    color: var(--color-07);
+}
+
+/**/
+.all-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-content {
+    width: 300px;
+    height: 100%;
+    background-color: var(--color-02);
+    position: fixed;
+    left: 0;
+    top: 62px;
+    border: 1px solid var(--color-03);
+}
+
+.content {
+    height: 75px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-bottom: 1px solid var(--color-03);
+}
+
+main {
+    padding-top: 15px;
+    width: 825px;
+    color: var(--color-01);
+}
+
+.pp {
+    width: 100%;
+    background-color: var(--bg-color-01);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+    border-bottom: 1px solid var(--color-03);
+}
+
+.pp p {
+    width: 825px;
+}
+
+footer {
+    width: 100%;
+    padding: 26px 0;
+    align-content: center;
+    background-color: var(--bg-color-01);
+    color: var(--color-07);
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    width: 25%;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+/*Button return to Top*/
+a:link {
+    color: var(--color-07);
+}
+
+a:visited {
+    color: var(--color-07);
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+iframe:hover {
+    box-shadow: 0px 16px 28px rgba(0, 0, 0, 0.3);
+}
