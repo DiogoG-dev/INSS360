@@ -94,6 +94,10 @@ header {
     border-bottom: 1px solid var(--color-03);
 }
 
+.content:hover {
+    background-color: var(--bg-color-02);
+}
+
 main {
     padding-top: 15px;
     width: 825px;
